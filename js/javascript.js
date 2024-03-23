@@ -1,5 +1,5 @@
-const BACKEND_ROOT_URL = 'http://localhost:3001';
-//const BACKEND_ROOT_URL = 'https://to-do-app-backend-owoo.onrender.com';
+//const BACKEND_ROOT_URL = 'http://localhost:3001';
+const BACKEND_ROOT_URL = 'https://to-do-app-backend-owoo.onrender.com';
 import { Todo } from './class/Todo.js';
 
 const todos = new Todo(BACKEND_ROOT_URL);
